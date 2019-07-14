@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url("building.jpg");
+	background-position: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	color: steelblue;
+	text-shadow: 2px 2px 2px;
+	
+}
+
+form{
+	width: 320px;
+	margin: 20px auto 0;
+}
+
+input{
+	font-size: inherit;
+}
+
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 25px;
+	background-color: lightyellow;
+}
+
+input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 25px;
+	background-color: lightyellow;
+}
+
+input[type="pass"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 25px;
+	background-color: lightyellow;
+}
+
+input[type="radio"] {
+	margin-bottom: 25px;
+}
+
+input[type="radio"]:checked + label{
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	width: 344px;
+	height: 44px;
+	background-color: steelblue;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+input:focus{
+	background-color: white;
+}
